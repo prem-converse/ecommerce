@@ -232,7 +232,7 @@ const Page = () => {
     <div className="h-full w-full">
       <div className="flex h-full w-full ">
         <div className=" h-full w-3/5  lg:h-full lg:w-[53%] xl:w-[50%] 2xl:w-[52%] 2xl:h-full  xl:h-full   ">
-          <div className="  border rounded-2xl h-[649px] w-[445px] lg:h-[678px] lg:w-[530px] xl:h-[734px] 2xl:h-[98.4%] 2xl:w-[91.5%]   xl:w-[610px] ml-[10px] mt-[10px] xl:ml-[90px] 2xl:ml-[84px]  ">
+          <div className="  border rounded-2xl h-[649px] w-[445px] lg:h-[678px] lg:w-[530px] xl:h-[734px] 2xl:h-[926px] 2xl:w-[91.5%]   xl:w-[610px] ml-[10px] mt-[10px] xl:ml-[90px] 2xl:ml-[84px]  ">
             <div className="  h-[455px] w-[445px]  lg:h-[500px] lg:w-[530px] xl:h-[515px] xl:w-[595px] 2xl:h-[76%] 2xl:w-[98.5%]  flex  pl-[6px] xl:pl-3 pt-3 2xl:ml-1  2xl:pt-4   ">
               <div className="h-[455px] w-[100px] lg:h-[480px] lg:w-[125px] xl:h-[98%] xl:w-[24%] xl:pr-[5px] 2xl:h-[100%] 2xl:w-[20%]  2xl:mr-[4px]  ">
                 <div className="w-[100px] h-[112px] lg:h-[120px] lg:w-[125px] xl:h-[125px] xl:w-[140px] 2xl:h-[170px] 2xl:w-[170px] imageFocus1 2xl:mb-[7px]   ">
@@ -645,14 +645,14 @@ const Page = () => {
       </div>
 
       {/* next page */}
-<div className="borderPage2 rounded-2xl h-[65%] w-[97%] lg:w-[97%]  mt-[20px] ml-[8px]   "> 
+<div className="borderPage2 rounded-2xl h-[65%] w-[97%] lg:w-[97%]  mt-[20px] ml-[8px] xl:w-[86%] xl:ml-[90px] xl:h-[67%] 2xl:ml-[80px] 2xl:w-[91.3%] 2xl:h-[77%] "> 
 
   <div className="flex gap-x-6 pt-2 border-b-2 border-[#099DBD14] ml-2 mr-2  pb-1.5">
-    <h3 className="interFont font-medium text-[12px] lg:text-[13px]  ml-3  hover:text-[#099DBD] pb-1.5 hover:border-b-2 border-[#099DBD]">Description</h3>
-    <h3 className="interFont font-medium text-[12px] lg:text-[13px] lg:pl-2 hover:text-[#099DBD] hover:border-b-2 border-[#099DBD]">Item Details</h3>
-    <h3 className="interFont font-medium text-[12px] lg:text-[13px]  lg:pl-2 hover:text-[#099DBD] hover:border-b-2 border-[#099DBD]">Specifications</h3>
-    <h3 className="interFont font-medium text-[12px] lg:text-[13px] lg:pl-2 hover:text-[#099DBD] hover:border-b-2 border-[#099DBD]">Quick Links</h3>
-    <h3 className="interFont font-medium text-[12px] lg:text-[13px] lg:pl-2 hover:text-[#099DBD] hover:border-b-2 border-[#099DBD]">Legal Information</h3>
+    <h3 className="interFont font-medium text-[12px] lg:text-[13px] xl:text-[14px]  2xl:text-[16px] ml-3  hover:text-[#099DBD] pb-1.5 hover:border-b-2 border-[#099DBD]">Description</h3>
+    <h3 className="interFont font-medium text-[12px] lg:text-[13px] xl:text-[14px]  2xl:text-[16px] lg:pl-2 xl:pl-6 2xl:pl-[104px] hover:text-[#099DBD] hover:border-b-2 border-[#099DBD]">Item Details</h3>
+    <h3 className="interFont font-medium text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[16px]  lg:pl-2 xl:pl-6 2xl:pl-[94px] hover:text-[#099DBD] hover:border-b-2 border-[#099DBD]">Specifications</h3>
+    <h3 className="interFont font-medium text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[16px] lg:pl-2 xl:pl-6 2xl:pl-[96px] hover:text-[#099DBD] hover:border-b-2 border-[#099DBD]">Quick Links</h3>
+    <h3 className="interFont font-medium text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[16px]  lg:pl-2 xl:pl-6 2xl:pl-[83px] hover:text-[#099DBD] hover:border-b-2 border-[#099DBD]">Legal Information</h3>
     </div>
 
     {/* div partition flex */}
@@ -660,85 +660,85 @@ const Page = () => {
 
 {/* leftside div */}
 
-      <div className="w-[75%] h-full ">
+      <div className="w-[75%] h-full 2xl:pl-6">
 
-    <div className=" pl-3 pt-3 pb-4">
-      <h2 className="interFont font-semibold text-[13px] lg:text-[15px] text-[#293341] pb-2.5">Product Description</h2>
-      <p className="interFont font-normal text-[12px] lg:text-[13px] text-[#29334199] " >When it's colder than the far side of the moon and spitting rain too, you've still got to look good. From water-repellent leather to a rugged outsole, the Lunar Force 1 adapts AF-1 style, so you can keep your flame burning when the weather hits. Metal lace hardware and extended tongue bring mountain boot toughness, while the star-studded toe design gives your look the edge</p>
+    <div className=" pl-3 pt-3 pb-4 2xl:pb-10">
+      <h2 className="interFont font-semibold text-[13px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] text-[#293341] pb-2.5 2xl:pb-6">Product Description</h2>
+      <p className="interFont font-normal text-[12px] lg:text-[13px] xl:text-[14px]  2xl:text-[16px] text-[#29334199] 2xl:w-[82%] " >When it's colder than the far side of the moon and spitting rain too, you've still got to look good. From water-repellent leather to a rugged outsole, the Lunar Force 1 adapts AF-1 style, so you can keep your flame burning when the weather hits. Metal lace hardware and extended tongue bring mountain boot toughness, while the star-studded toe design gives your look the edge</p>
     </div>
 
-    <div className="pl-3 pb-3">
-      <h2 className="interFont font-semibold text-[13px] lg:text-[15px]  pb-2">Benefits</h2>
+    <div className="pl-3 pb-3 2xl:pb-6">
+      <h2 className="interFont font-semibold text-[13px] lg:text-[15px] xl:text-[16px]  2xl:text-[18px] pb-2 2xl:pb-8">Benefits</h2>
       <div className="">
-        <div className="flex pb-1.5 ">
-          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 flex justify-center items-center text-gray-600"><TiTick /></span>
-        <p className="interFont font-normal pl-1.5 text-[12px] lg:text-[13px] text-[#29334199]">Durable leather is easily cleanable so you can keep your look fresh.</p>
+        <div className="flex pb-1.5 2xl:pb-4">
+          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 2xl:h-4.5 2xl:w-5 2xl:rounded-[50%] flex justify-center items-center text-gray-600"><TiTick /></span>
+        <p className="interFont font-normal pl-1.5 2xl:pl-3.5 text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[16px] text-[#29334199]">Durable leather is easily cleanable so you can keep your look fresh.</p>
         </div>
         
-        <div className="flex pb-1.5">
-          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 flex justify-center items-center text-gray-600"><TiTick /></span>
-        <p className="interFont font-normal pl-1.5 text-[12px] lg:text-[13px] text-[#29334199]">Water-repellent finish and internal membrane help keep your feet dry.</p>
+        <div className="flex pb-1.5 2xl:pb-4">
+          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 2xl:h-4.5 2xl:w-5 2xl:rounded-[50%] flex justify-center items-center text-gray-600"><TiTick /></span>
+        <p className="interFont font-normal pl-1.5 2xl:pl-3.5 text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[16px] text-[#29334199]">Water-repellent finish and internal membrane help keep your feet dry.</p>
         </div>
-        <div className="flex pb-1.5">
-          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 flex justify-center items-center text-gray-600"><TiTick /></span>
-        <p className="interFont font-normal pl-1.5 text-[12px] lg:text-[13px] text-[#29334199]">Toe piece with star pattern adds durability.</p>
+        <div className="flex pb-1.5 2xl:pb-4">
+          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 2xl:h-4.5 2xl:w-5 2xl:rounded-[50%] flex justify-center items-center text-gray-600"><TiTick /></span>
+        <p className="interFont font-normal pl-1.5 2xl:pl-3.5 text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[16px] text-[#29334199]">Toe piece with star pattern adds durability.</p>
         </div>
-        <div className="flex pb-1.5">
-          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 flex justify-center items-center text-gray-600"><TiTick /></span>
-        <p className="interFont font-normal pl-1.5 text-[12px] lg:text-[13px] text-[#29334199]">Synthetic insulation helps keep you warm.</p>
+        <div className="flex pb-1.5 2xl:pb-4">
+          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 2xl:h-4.5 2xl:w-5 2xl:rounded-[50%] flex justify-center items-center text-gray-600"><TiTick /></span>
+        <p className="interFont font-normal pl-1.5 2xl:pl-3.5 text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[16px] text-[#29334199]">Synthetic insulation helps keep you warm.</p>
         </div>
-        <div className="flex pb-1.5">
-          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 flex justify-center items-center text-gray-600"><TiTick /></span>
-        <p className="interFont font-normal pl-1.5 text-[12px] lg:text-[13px]  text-[#29334199]">Originally designed for performance hoops, the Air unit delivers lightweight cushioning.</p>
+        <div className="flex pb-1.5 2xl:pb-4">
+          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 2xl:h-4.5 2xl:w-5 2xl:rounded-[50%] flex justify-center items-center text-gray-600"><TiTick /></span>
+        <p className="interFont font-normal pl-1.5 2xl:pl-3.5 text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[16px] text-[#29334199]">Originally designed for performance hoops, the Air unit delivers lightweight cushioning.</p>
         </div>
-        <div className="flex pb-1.5">
-          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 flex justify-center items-center text-gray-600"><TiTick /></span>
-        <p className="interFont font-normal pl-1.5 text-[12px] lg:text-[13px] text-[#29334199]">Plush tongue wraps over the ankle to help keep out the moisture and cold.</p>
+        <div className="flex pb-1.5 2xl:pb-4">
+          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 2xl:h-4.5 2xl:w-5 2xl:rounded-[50%] flex justify-center items-center text-gray-600"><TiTick /></span>
+        <p className="interFont font-normal pl-1.5 2xl:pl-3.5 text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[16px] text-[#29334199]">Plush tongue wraps over the ankle to help keep out the moisture and cold.</p>
         </div>
-        <div className="flex pb-1.5">
-          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 flex justify-center items-center text-gray-600"><TiTick /></span>
-        <p className="interFont font-normal pl-1.5 text-[12px] lg:text-[13px] text-[#29334199]">Rubber outsole with aggressive traction pattern adds durable grip.</p>
+        <div className="flex pb-1.5 2xl:pb-4">
+          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 2xl:h-4.5 2xl:w-5 2xl:rounded-[50%] flex justify-center items-center text-gray-600"><TiTick /></span>
+        <p className="interFont font-normal pl-1.5 2xl:pl-3.5 text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[16px] text-[#29334199]">Rubber outsole with aggressive traction pattern adds durable grip.</p>
         </div>
-        <div className="flex pb-1.5">
-          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 flex justify-center items-center text-gray-600"><TiTick /></span>
-        <p className="interFont font-normal pl-1.5 text-[12px] lg:text-[13px] text-[#29334199]">Durable leather is easily cleanable so you can keep your look fresh.</p>
+        <div className="flex pb-1.5 2xl:pb-4">
+          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 2xl:h-4.5 2xl:w-5 2xl:rounded-[50%] flex justify-center items-center text-gray-600"><TiTick /></span>
+        <p className="interFont font-normal pl-1.5 2xl:pl-3.5 text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[16px] text-[#29334199]">Durable leather is easily cleanable so you can keep your look fresh.</p>
         </div>
       </div>
     </div>
 
-    <div className="pl-3 pb-3">
-      <h2  className="interFont font-semibold text-[13px] lg:text-[15px]  pb-2">Product Details</h2>
-      <div className="flex pb-1.5 ">
-          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 flex justify-center items-center text-gray-600"><TiTick /></span>
-        <p className="interFont font-normal pl-1.5 text-[12px] lg:text-[13px] text-[#29334199]">Not intended for use as Personal Protective Equipment (PPE)</p>
+    <div className="pl-3 pb-3 2xl:pb-6">
+      <h2  className="interFont font-semibold text-[13px] lg:text-[15px] xl:text-[16px]  2xl:text-[18px] 2xl:pb-7  pb-2">Product Details</h2>
+      <div className="flex pb-1.5 2xl:pb-4">
+          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 2xl:h-4.5 2xl:w-5 2xl:rounded-[50%] flex justify-center items-center text-gray-600"><TiTick /></span>
+        <p className="interFont font-normal pl-1.5 2xl:pl-3.5 text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[16px] text-[#29334199]">Not intended for use as Personal Protective Equipment (PPE)</p>
         </div>
 
-        <div className="flex pb-1.5 ">
-          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 flex justify-center items-center text-gray-600"><TiTick /></span>
-        <p className="interFont font-normal pl-1.5 text-[12px] lg:text-[13px] text-[#29334199]">Water-repellent finish and internal membrane help keep your feet dry.</p>
+        <div className="flex pb-1.5  2xl:pb-4">
+          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 2xl:h-4.5 2xl:w-5 2xl:rounded-[50%] flex justify-center items-center text-gray-600"><TiTick /></span>
+        <p className="interFont font-normal pl-1.5  2xl:pl-3.5 text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[16px]  text-[#29334199]">Water-repellent finish and internal membrane help keep your feet dry.</p>
         </div>
     </div>
 
-    <div className="pl-3">
-      <h2  className="interFont font-semibold text-[13px] lg:text-[15px]  pb-2">More Details</h2>
-      <div className="flex pb-1.5 ">
-          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 flex justify-center items-center text-gray-600"><TiTick /></span>
-        <p className="interFont font-normal pl-1.5 text-[12px] lg:text-[13px] text-[#29334199]">Lunarlon midsole delivers ultra-plush responsiveness</p>
+    <div className="pl-3 2xl:pb-4">
+      <h2  className="interFont font-semibold text-[13px] lg:text-[15px] xl:text-[16px]  2xl:text-[18px] 2xl:pb-7 pb-2">More Details</h2>
+      <div className="flex pb-1.5 2xl:pb-4 ">
+          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 2xl:h-4.5 2xl:w-5 2xl:rounded-[50%] flex justify-center items-center text-gray-600"><TiTick /></span>
+        <p className="interFont font-normal pl-1.5 2xl:pl-3.5  text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[16px] text-[#29334199]">Lunarlon midsole delivers ultra-plush responsiveness</p>
         </div>
 
-        <div className="flex pb-1.5 ">
-          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 flex justify-center items-center text-gray-600"><TiTick /></span>
-        <p className="interFont font-normal pl-1.5 text-[12px] lg:text-[13px] text-[#29334199]">Encapsulated Air-Sole heel unit for lightweight cushioning</p>
+        <div className="flex pb-1.5 2xl:pb-4 ">
+          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 2xl:h-4.5 2xl:w-5 2xl:rounded-[50%] flex justify-center items-center text-gray-600"><TiTick /></span>
+        <p className="interFont font-normal pl-1.5 2xl:pl-3.5 text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[16px] text-[#29334199]">Encapsulated Air-Sole heel unit for lightweight cushioning</p>
         </div>
 
-        <div className="flex pb-1.5 ">
-          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 flex justify-center items-center text-gray-600"><TiTick /></span>
-        <p className="interFont font-normal pl-1.5 text-[12px] lg:text-[13px] text-[#29334199]">Colour Shown: Ale Brown/Black/Goldtone/Ale Brown</p>
+        <div className="flex pb-1.5 2xl:pb-4">
+          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 2xl:h-4.5 2xl:w-5 2xl:rounded-[50%] flex justify-center items-center text-gray-600"><TiTick /></span>
+        <p className="interFont font-normal pl-1.5 2xl:pl-3.5 text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[16px] text-[#29334199]">Colour Shown: Ale Brown/Black/Goldtone/Ale Brown</p>
         </div>
 
-        <div className="flex pb-1.5 ">
-          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 flex justify-center items-center text-gray-600"><TiTick /></span>
-        <p className="interFont font-normal pl-1.5 text-[12px] lg:text-[13px] text-[#29334199]">Style: 805899-202</p>
+        <div className="flex pb-1.5 2xl:pb-4">
+          <span className="text-[15px] rounded-[50%] bg-[#E7F4FC] h-4 w-4.5 2xl:h-4.5 2xl:w-5 2xl:rounded-[50%] flex justify-center items-center text-gray-600"><TiTick /></span>
+        <p className="interFont font-normal pl-1.5 2xl:pl-3.5 text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[16px] text-[#29334199]">Style: 805899-202</p>
         </div>
     </div>
 
@@ -755,24 +755,24 @@ const Page = () => {
     </div>
     </div> 
 
-    <div className="mt-6 h-full w-[95%]  ml-[20px]  ">
-      <div className="flex justify-between w-[30%] lg:w-[25%]  pb-2 ml-3 ">
-      <h2 className=" interFont font-semibold text-[12px] lg:text-[13px] text-[#293341] ">FREQUENTLY ASKED QUESTIONS</h2>
-      < RiQuestionAnswerLine className="text-[#099DBD]" />
+    <div className="mt-6 h-full w-[95%] xl:w-[85%] xl:ml-[85px] ml-[20px] 2xl:mt-[53px]  ">
+      <div className="flex justify-between w-[30%] lg:w-[25%]  pb-2 ml-3   xl:w-[21%] 2xl:w-[17%]">
+      <h2 className=" interFont font-semibold text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[15px] xl:pb-2 2xl:pl-1.5 2xl:pb-5 text-[#293341] ">FREQUENTLY ASKED QUESTIONS</h2>
+      < RiQuestionAnswerLine className="text-[#099DBD] xl:text-[18px] xl:mt-1" />
       </div>
       <div className="flex justify-between " >
 {/* common div */}
 <div  >
   <div >
-  {content1 ? (<div className="  border8 h-[80px] w-[350px] lg:h-[110px] lg:w-[400px]   rounded-[6px] flex items-center justify-between duration-700 mb-2.5 ">
-  <div className="   w-[310px] ">
-<p className=" pl-2  interFont font-medium text-[11px] lg:text-[12px] text-[#099DBD] ">What is the fabric composition of this regular fit T-shirt?</p>
-<p className=" pl-2 interFont font-medium text-[11px] lg:text-[12px] text-[#29334199]">Our regular fit T-shirt is crafted from a blend of [fabric composition], ensuring both comfort and durability.</p>
+  {content1 ? (<div className="  border8 2xl:pl-4 h-[80px] w-[350px] lg:h-[110px] lg:w-[400px] xl:h-[110px] xl:w-[500px]  2xl:h-[159px] 2xl:w-[844px] 2xl:rounded-[8px]  xl:pl-2  rounded-[6px] xl:rounded-[9px]  flex items-center justify-between duration-700 mb-2.5 2xl:mb-8 ">
+  <div className="   w-[310px]   xl:w-[450px] 2xl:w-[90%] ">
+<p className=" pl-2 2xl:pb-4 interFont font-semibold text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] text-[#099DBD] ">What is the fabric composition of this regular fit T-shirt?</p>
+<p className=" pl-2 interFont 2xl:leading-8 font-medium text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] text-[#29334199]">Our regular fit T-shirt is crafted from a blend of [fabric composition], ensuring both comfort and durability.</p>
 </div>
-<span className=" mr-2 text-[13px] rounded-[5px]  h-[21px] w-[21px] flex justify-center items-center bg-[#099DBD] text-white mb-9 "><FaMinus onClick={handleContent1}/></span>
-</div>):(<div className=" duration-700 border8 h-[45px] w-[350px] lg:h-[48px] lg:w-[400px]  rounded-[6px]  flex justify-between items-center mb-2.5">
-<p className="  w-[310px] pl-2 items-center interFont font-medium text-[11px] lg:text-[12px] text-[#29334199]">What is the fabric composition of this regular fit T-shirt?</p>
-<span className=" mr-2 text-[13px] rounded-[5px] bg-[#29334117] h-[21px] w-[21px] flex justify-center items-center text-gray-600"><AiOutlinePlus onClick={handleContent1} /></span>
+<span className=" mr-2 text-[13px] rounded-[5px]  h-[21px] w-[21px]  xl:h-[24px] xl:w-[24px] 2xl:h-[40px] 2xl:w-[40px] 2xl:mr-6 2xl:rounded-[8px] 2xl:text-[25px]  flex justify-center items-center bg-[#099DBD] text-white mb-9 lg:mb-14 xl:mb-[47px] 2xl:mb-[77px]  "><FaMinus onClick={handleContent1} className='xl:text-[17px]'/></span>
+</div>):(<div className=" xl:pl-2 duration-700 border8 h-[45px] w-[350px] lg:h-[48px] lg:w-[400px] xl:h-[70px] xl:w-[500px] 2xl:h-[91px] 2xl:w-[844px] 2xl:rounded-[8px]  rounded-[6px] xl:rounded-[9px] flex justify-between items-center mb-2.5 2xl:mb-8">
+<p className="  w-[310px] xl:w-[450px] 2xl:w-full  pl-2 2xl:pl-4 items-center interFont font-semibold  text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] text-[#29334199]">What is the fabric composition of this regular fit T-shirt?</p>
+<span className=" mr-2 text-[13px] text-black rounded-[5px] bg-[#29334117] h-[21px] w-[21px] xl:h-[24px] xl:w-[24px] 2xl:h-[40px] 2xl:w-[40px] 2xl:mr-6 2xl:rounded-[8px] 2xl:text-[25px] flex justify-center items-center "><AiOutlinePlus onClick={handleContent1} /></span>
 </div>)}
 </div>
 
@@ -780,15 +780,15 @@ const Page = () => {
 {/* alternative div for plus icon */}
 
 <div >
-{content2 ? (<div className="  border8 h-[110px] w-[350px] lg:h-[110px] lg:w-[400px] rounded-[6px] flex items-center justify-between duration-700 mb-2.5 ">
-  <div   className="   w-[310px] ">
-<p className=" pl-2  interFont font-medium text-[11px] lg:text-[12px] text-[#099DBD] ">Does this T-shirt have any special features for added comfort or durability?</p>
-<p className=" pl-2 interFont font-medium text-[11px] lg:text-[12px] text-[#29334199]">Our regular fit T-shirt features reinforced stitching for durability and a tagless design for added comfort, ensuring a superior wearing experience.</p>
+{content2 ? (<div className="  border8 2xl:pl-4 xl:pl-2 h-[110px] w-[350px] lg:h-[110px] lg:w-[400px] xl:h-[130px] xl:w-[500px]  2xl:h-[159px] 2xl:w-[844px] 2xl:rounded-[8px] rounded-[6px] xl:rounded-[9px] flex items-center justify-between duration-700 mb-2.5 2xl:mb-8 ">
+  <div   className="   w-[310px] xl:w-[450px] 2xl:w-[90%]">
+<p className=" pl-2  2xl:pb-4 interFont font-semibold text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] text-[#099DBD] ">Does this T-shirt have any special features for added comfort or durability?</p>
+<p className=" pl-2 interFont 2xl:leading-8 font-medium text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] text-[#29334199]">Our regular fit T-shirt features reinforced stitching for durability and a tagless design for added comfort, ensuring a superior wearing experience.</p>
 </div>
-<span className=" mr-2 text-[13px] rounded-[5px]  h-[21px] w-[21px] flex justify-center items-center bg-[#099DBD] text-white mb-16"><FaMinus onClick={handleContent2}/></span>
-</div>):(<div className=" duration-700 border8 h-[45px] w-[350px] lg:h-[48px] lg:w-[400px] rounded-[6px]  flex justify-between items-center mb-2.5">
-<p className="  w-[310px]  pl-2 items-center interFont font-medium text-[11px] lg:text-[12px] text-[#29334199]">Does this T-shirt have any special features for added comfort or durability?</p>
-<span className=" mr-2 text-[13px] rounded-[5px] bg-[#29334117] h-[21px] w-[21px] flex justify-center items-center text-gray-600"><AiOutlinePlus onClick={handleContent2} /></span>
+<span className=" mr-2 text-[13px] rounded-[5px]  h-[21px] w-[21px] xl:h-[24px] xl:w-[24px] 2xl:h-[40px] 2xl:w-[40px] 2xl:mr-6 2xl:rounded-[8px] 2xl:text-[25px] flex justify-center items-center bg-[#099DBD] text-white mb-16 lg:mb-14 xl:mb-[67px] 2xl:mb-[77px]"><FaMinus onClick={handleContent2}/></span>
+</div>):(<div className=" xl:pl-2 duration-700 border8 h-[45px] w-[350px] lg:h-[48px] lg:w-[400px] xl:h-[80px] xl:w-[500px] 2xl:h-[91px] 2xl:w-[844px] 2xl:rounded-[8px] rounded-[6px] xl:rounded-[9px]  flex justify-between items-center mb-2.5 2xl:mb-8">
+<p className="  w-[310px] xl:w-[450px] 2xl:w-full    pl-2 2xl:pl-4 items-center interFont font-semibold text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] text-[#29334199]">Does this T-shirt have any special features for added comfort or durability?</p>
+<span className=" mr-2 text-[13px] rounded-[5px] bg-[#29334117] h-[21px] w-[21px]  xl:h-[24px] xl:w-[24px] 2xl:h-[40px] 2xl:w-[40px] 2xl:mr-6 2xl:rounded-[8px] 2xl:text-[25px] flex justify-center items-center text-black"><AiOutlinePlus onClick={handleContent2} /></span>
 </div>)}
 </div>
 
@@ -796,84 +796,84 @@ const Page = () => {
 
 
 <div >
-{content3 ? (<div className="  border8 h-[110px] w-[350px] lg:h-[110px] lg:w-[400px] rounded-[6px] flex items-center justify-between duration-700 mb-2.5 ">
-  <div   className="   w-[310px] ">
-<p className=" pl-2  interFont font-medium text-[11px] lg:text-[12px] text-[#099DBD] ">Can I expect this T-shirt to retain its shape after multiple wears?</p>
-<p className=" pl-2 interFont font-medium text-[11px] lg:text-[12px] text-[#29334199]">Yes, our regular fit T-shirt is constructed to maintain its shape even after repeated wear, offering long-lasting comfort and style.</p>
+{content3 ? (<div className="  border8 2xl:pl-4 h-[110px] w-[350px] xl:pl-2 lg:h-[110px] lg:w-[400px] xl:h-[110px] xl:w-[500px] 2xl:h-[159px] 2xl:w-[844px] 2xl:rounded-[8px] rounded-[6px] xl:rounded-[9px] flex items-center justify-between duration-700 mb-2.5 2xl:mb-8 ">
+  <div   className="   w-[310px] xl:w-[450px] 2xl:w-[90%]"> 
+<p className=" pl-2 2xl:pb-4 interFont font-semibold text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] text-[#099DBD] ">Can I expect this T-shirt to retain its shape after multiple wears?</p>
+<p className=" pl-2   interFont 2xl:leading-8 font-medium text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] text-[#29334199]">Yes, our regular fit T-shirt is constructed to maintain its shape even after repeated wear, offering long-lasting comfort and style.</p>
 </div>
-<span className=" mr-2 text-[13px] rounded-[5px] h-[21px] w-[21px] flex justify-center items-center bg-[#099DBD] text-white mb-16"><FaMinus onClick={handleContent3}/></span>
-</div>):(<div className=" duration-700 border8 h-[45px] w-[350px] lg:h-[48px] lg:w-[400px] rounded-[6px]  flex justify-between items-center mb-2.5">
-<p className="  w-[310px]  pl-2 items-center interFont font-medium text-[11px] lg:text-[12px] text-[#29334199]">Can I expect this T-shirt to retain its shape after multiple wears?</p>
-<span className=" mr-2 text-[13px] rounded-[5px] bg-[#29334117] h-[21px] w-[21px] flex justify-center items-center text-gray-600"><AiOutlinePlus onClick={handleContent3} /></span>
+<span className=" mr-2 text-[13px] rounded-[5px] h-[21px] w-[21px] xl:h-[24px] xl:w-[24px] 2xl:h-[40px] 2xl:w-[40px] 2xl:mr-6 2xl:rounded-[8px] 2xl:text-[25px] flex justify-center items-center bg-[#099DBD] text-white mb-16 lg:mb-14 xl:mb-[37px] 2xl:mb-[77px]"><FaMinus onClick={handleContent3}/></span>
+</div>):(<div className=" xl:pl-2 duration-700 border8 h-[45px] w-[350px] lg:h-[48px] lg:w-[400px] xl:h-[70px] xl:w-[500px] 2xl:h-[91px] 2xl:w-[844px] 2xl:rounded-[8px] rounded-[6px]  xl:rounded-[9px] flex justify-between items-center mb-2.5 2xl:mb-8">
+<p className="  w-[310px]  xl:w-[450px] 2xl:w-full pl-2 2xl:pl-4 items-center interFont font-semibold text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] text-[#29334199]">Can I expect this T-shirt to retain its shape after multiple wears?</p>
+<span className=" mr-2 text-[13px] rounded-[5px] bg-[#29334117] h-[21px] w-[21px] xl:h-[24px] xl:w-[24px] 2xl:h-[40px] 2xl:w-[40px] 2xl:mr-6 2xl:rounded-[8px] 2xl:text-[25px] flex justify-center items-center text-black"><AiOutlinePlus onClick={handleContent3} /></span>
 </div>)}
 </div>
 
 <div >
-{content4 ? (<div className="  border8 h-[80px] w-[350px] lg:h-[110px] lg:w-[400px] rounded-[6px] flex items-center justify-between duration-700 mb-2.5 ">
-  <div   className="   w-[310px] ">
-<p className=" pl-2  interFont font-medium text-[11px] lg:text-[12px] text-[#099DBD] ">What is the fabric composition of this regular fit T-shirt?</p>
-<p className=" pl-2 interFont font-medium text-[11px] lg:text-[12px] text-[#29334199]">Our regular fit T-shirt is crafted from a blend of [fabric composition], ensuring both comfort and durability.</p>
+{content4 ? (<div className="  border8 2xl:pl-4 h-[80px] w-[350px] xl:pl-2 lg:h-[110px] lg:w-[400px] xl:h-[110px] xl:w-[500px] 2xl:h-[159px] 2xl:w-[844px] 2xl:rounded-[8px] rounded-[6px] xl:rounded-[9px] flex items-center justify-between duration-700 mb-2.5 2xl:mb-8">
+  <div   className="   w-[310px] xl:w-[450px] 2xl:w-[90%]">
+<p className=" pl-2 2xl:pb-4 interFont font-semibold text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] text-[#099DBD] ">What is the fabric composition of this regular fit T-shirt?</p>
+<p className=" pl-2 interFont 2xl:leading-8 font-medium text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] text-[#29334199]">Our regular fit T-shirt is crafted from a blend of [fabric composition], ensuring both comfort and durability.</p>
 </div>
-<span className=" mr-2 text-[13px] rounded-[5px]  h-[21px] w-[21px] flex justify-center items-center bg-[#099DBD] text-white mb-9"><FaMinus onClick={handleContent4}/></span>
-</div>):(<div className=" duration-700 border8 h-[45px] w-[350px] lg:h-[48px] lg:w-[400px] rounded-[6px]  flex justify-between items-center mb-2.5">
-<p className="  w-[310px]  pl-2 items-center interFont font-medium text-[11px] lg:text-[12px] text-[#29334199]">What is the fabric composition of this regular fit T-shirt?</p>
-<span className=" mr-2 text-[13px] rounded-[5px] bg-[#29334117] h-[21px] w-[21px] flex justify-center items-center text-gray-600"><AiOutlinePlus onClick={handleContent4}/></span>
+<span className=" mr-2 text-[13px] rounded-[5px]  h-[21px] w-[21px] xl:h-[24px] xl:w-[24px] 2xl:h-[40px] 2xl:w-[40px] 2xl:mr-6 2xl:rounded-[8px] 2xl:text-[25px] flex justify-center items-center bg-[#099DBD] text-white mb-9 lg:mb-14 xl:mb-[37px] 2xl:mb-[77px]"><FaMinus onClick={handleContent4}/></span>
+</div>):(<div className=" xl:pl-2 duration-700 border8 h-[45px] w-[350px] lg:h-[48px] lg:w-[400px] xl:h-[70px] xl:w-[500px] 2xl:h-[91px] 2xl:w-[844px] 2xl:rounded-[8px] rounded-[6px] xl:rounded-[9px]  flex justify-between items-center mb-2.5 2xl:mb-8">
+<p className="  w-[310px] xl:w-[450px] 2xl:w-full pl-2 2xl:pl-4 items-center interFont font-semibold text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] text-[#29334199]">What is the fabric composition of this regular fit T-shirt?</p>
+<span className=" mr-2 text-[13px] rounded-[5px] bg-[#29334117] h-[21px] w-[21px] xl:h-[24px] xl:w-[24px] 2xl:h-[40px] 2xl:w-[40px] 2xl:mr-6 2xl:rounded-[8px] 2xl:text-[25px] flex justify-center items-center text-black"><AiOutlinePlus onClick={handleContent4}/></span>
 </div>)}
 </div>
 
 </div>
 
-<div className="">
+<div className=" 2xl:ml-11">
 
 <div >
-{content5 ? (<div className="  border8 h-[100px] w-[350px] lg:h-[120px] lg:w-[400px] rounded-[6px] flex items-center justify-between duration-700 mb-2.5 ">
-  <div   className="   w-[310px] ">
-<p className=" pl-2  interFont font-medium text-[11px] lg:text-[12px] text-[#099DBD] ">How should I care for this T-shirt to maintain its quality?</p>
-<p className=" pl-2 interFont font-medium text-[11px] lg:text-[12px] text-[#29334199]">To maintain the quality of your regular fit T-shirt, we recommend washing it in cold water and avoiding bleach. Tumble dry on low heat or air dry for best results.</p>
+{content5 ? (<div className="  border8 2xl:pl-4 h-[100px] w-[350px] xl:pl-2 lg:h-[120px] lg:w-[400px] xl:h-[120px] xl:w-[500px] 2xl:h-[159px] 2xl:w-[844px] 2xl:rounded-[8px] rounded-[6px] xl:rounded-[9px] flex items-center justify-between duration-700 mb-2.5 2xl:mb-8 ">
+  <div   className="   w-[310px] xl:w-[450px] 2xl:w-[90%]">
+<p className=" pl-2 2xl:pb-4 interFont font-semibold text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] text-[#099DBD] ">How should I care for this T-shirt to maintain its quality?</p>
+<p className=" pl-2 interFont 2xl:leading-8 font-medium text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] text-[#29334199]">To maintain the quality of your regular fit T-shirt, we recommend washing it in cold water and avoiding bleach. Tumble dry on low heat or air dry for best results.</p>
 </div>
-<span className=" mr-2 text-[13px] rounded-[5px]  h-[21px] w-[21px] flex justify-center items-center bg-[#099DBD] text-white mb-14"><FaMinus onClick={handleContent5}/></span>
-</div>):(<div className=" duration-700 border8 h-[45px] w-[350px] lg:h-[48px] lg:w-[400px] rounded-[6px]  flex justify-between items-center mb-2.5">
-<p className="  w-[310px]  pl-2 items-center interFont font-medium text-[11px] lg:text-[12px] text-[#29334199]">How should I care for this T-shirt to maintain its quality?</p>
-<span className=" mr-2 text-[13px] rounded-[5px] bg-[#29334117] h-[21px] w-[21px] flex justify-center items-center text-gray-600"><AiOutlinePlus onClick={handleContent5} /></span>
+<span className=" mr-2 text-[13px] rounded-[5px]  h-[21px] w-[21px] xl:h-[24px] xl:w-[24px] 2xl:h-[40px] 2xl:w-[40px] 2xl:mr-6 2xl:rounded-[8px] 2xl:text-[25px] flex justify-center items-center bg-[#099DBD] text-white mb-14 lg:mb-14 xl:mb-[57px] 2xl:mb-[77px]"><FaMinus onClick={handleContent5}/></span>
+</div>):(<div className=" xl:pl-2 duration-700 border8 h-[45px] w-[350px] lg:h-[48px] lg:w-[400px] xl:h-[70px] xl:w-[500px] 2xl:h-[91px] 2xl:w-[844px] 2xl:rounded-[8px] rounded-[6px] xl:rounded-[9px]  flex justify-between items-center mb-2.5 2xl:mb-8">
+<p className="  w-[310px] xl:w-[450px] 2xl:w-full pl-2 2xl:pl-4 items-center interFont font-semibold text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] text-[#29334199]">How should I care for this T-shirt to maintain its quality?</p>
+<span className=" mr-2 text-[13px] rounded-[5px] bg-[#29334117] h-[21px] w-[21px] xl:h-[24px] xl:w-[24px] 2xl:h-[40px] 2xl:w-[40px] 2xl:mr-6 2xl:rounded-[8px] 2xl:text-[25px] flex justify-center items-center text-black"><AiOutlinePlus onClick={handleContent5} /></span>
 </div>)}
 </div>
 
 <div >
-{content6 ? (<div className="  border8 h-[110px] w-[350px] lg:h-[110px] lg:w-[400px] rounded-[6px] flex items-center justify-between duration-700 mb-2.5 ">
-  <div   className="   w-[310px] ">
-<p className=" pl-2  interFont font-medium text-[11px] lg:text-[12px] text-[#099DBD] ">What body type is best suited for the regular fit of this T-shirt?</p>
-<p className=" pl-2 interFont font-medium text-[11px] lg:text-[12px] text-[#29334199]"> The regular fit of our T-shirt is designed to flatter a wide range of body types, providing a comfortable and relaxed silhouette</p>
+{content6 ? (<div className="  border8 2xl:pl-4 h-[110px] w-[350px] xl:pl-2 lg:h-[110px] lg:w-[400px] xl:h-[120px] xl:w-[500px] 2xl:h-[159px] 2xl:w-[844px] 2xl:rounded-[8px] rounded-[6px] xl:rounded-[9px] flex items-center justify-between duration-700 mb-2.5 2xl:mb-8">
+  <div   className="   w-[310px] xl:w-[450px] 2xl:w-[90%]">
+<p className=" pl-2 2xl:pb-4 interFont font-semibold text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] text-[#099DBD] ">What body type is best suited for the regular fit of this T-shirt?</p>
+<p className=" pl-2 interFont 2xl:leading-8 font-medium text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] text-[#29334199]"> The regular fit of our T-shirt is designed to flatter a wide range of body types, providing a comfortable and relaxed silhouette</p>
 </div>
-<span className=" mr-2 text-[13px] rounded-[5px]  h-[21px] w-[21px] flex justify-center items-center bg-[#099DBD] text-white mb-16"><FaMinus onClick={handleContent6}/></span>
-</div>):(<div className=" duration-700 border8 h-[45px] w-[350px] lg:h-[48px] lg:w-[400px] rounded-[6px]  flex justify-between items-center mb-2.5">
-<p className="  w-[310px]  pl-2 items-center interFont font-medium text-[11px] lg:text-[12px] text-[#29334199]">What body type is best suited for the regular fit of this T-shirt?</p>
-<span className=" mr-2 text-[13px] rounded-[5px] bg-[#29334117] h-[21px] w-[21px] flex justify-center items-center text-gray-600"><AiOutlinePlus onClick={handleContent6} /></span>
+<span className=" mr-2 text-[13px] rounded-[5px]  h-[21px] w-[21px] xl:h-[24px] xl:w-[24px] 2xl:h-[40px] 2xl:w-[40px] 2xl:mr-6 2xl:rounded-[8px] 2xl:text-[25px] flex justify-center items-center bg-[#099DBD] text-white mb-16 lg:mb-14 xl:mb-[47px] 2xl:mb-[77px]"><FaMinus onClick={handleContent6}/></span>
+</div>):(<div className=" xl:pl-2 duration-700 border8 h-[45px] w-[350px] lg:h-[48px] lg:w-[400px] xl:h-[70px] xl:w-[500px] 2xl:h-[91px] 2xl:w-[844px]  rounded-[6px] xl:rounded-[9px]  flex justify-between items-center mb-2.5 2xl:mb-8">
+<p className="  w-[310px] xl:w-[450px] 2xl:w-full pl-2 2xl:pl-4 items-center interFont font-semibold text-[11px] lg:text-[12px]  xl:text-[13px] 2xl:text-[16px] text-[#29334199]">What body type is best suited for the regular fit of this T-shirt?</p>
+<span className=" mr-2 text-[13px] rounded-[5px] bg-[#29334117] h-[21px] w-[21px] xl:h-[24px] xl:w-[24px] 2xl:h-[40px] 2xl:w-[40px] 2xl:mr-6 2xl:rounded-[8px] 2xl:text-[25px] flex justify-center items-center text-black"><AiOutlinePlus onClick={handleContent6} /></span>
 </div>)}
 </div>
 
 <div >
-{content7 ? (<div className="  border8 h-[130px] w-[350px] lg:h-[130px] lg:w-[400px] rounded-[6px] flex items-center justify-between duration-700 mb-2.5 ">
-  <div   className="   w-[310px] ">
-<p className=" pl-2  interFont font-medium text-[11px] lg:text-[12px] text-[#099DBD] ">Can I wear this T-shirt for workouts or is it more suited for casual wear?</p>
-<p className=" pl-2 interFont font-medium text-[11px] lg:text-[12px] text-[#29334199]">While our regular fit T-shirts are versatile enough for casual wear, they may not be specifically designed for intense workouts. For exercise-specific clothing, we recommend exploring our activewear collection.</p>
+{content7 ? (<div className="  border8 2xl:pl-4  h-[130px] w-[350px] xl:pl-2 lg:h-[130px] lg:w-[400px] xl:h-[130px] xl:w-[500px] 2xl:h-[159px] 2xl:w-[844px] 2xl:rounded-[8px] rounded-[6px] xl:rounded-[9px] flex items-center justify-between duration-700 mb-2.5 2xl:mb-8 ">
+  <div   className="   w-[310px]  xl:w-[450px] 2xl:w-[90%]">
+<p className=" pl-2 2xl:pb-4 interFont font-semibold text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] text-[#099DBD] ">Can I wear this T-shirt for workouts or is it more suited for casual wear?</p>
+<p className=" pl-2 interFont 2xl:leading-8 font-medium text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] text-[#29334199]">While our regular fit T-shirts are versatile enough for casual wear, they may not be specifically designed for intense workouts. For exercise-specific clothing, we recommend exploring our activewear collection.</p>
 </div>
-<span className=" mr-2 text-[13px] rounded-[5px]  h-[21px] w-[21px] flex justify-center items-center bg-[#099DBD] text-white mb-20"><FaMinus onClick={handleContent7}/></span>
-</div>):(<div className=" duration-700 border8 h-[45px] w-[350px] lg:h-[48px] lg:w-[400px] rounded-[6px]  flex justify-between items-center mb-2.5">
-<p className="  w-[310px]  pl-2 items-center interFont font-medium text-[11px] lg:text-[12px] text-[#29334199]">Can I wear this T-shirt for workouts or is it more suited for casual wear?</p>
-<span className=" mr-2 text-[13px] rounded-[5px] bg-[#29334117] h-[21px] w-[21px] flex justify-center items-center text-gray-600"><AiOutlinePlus  onClick={handleContent7}/></span>
+<span className=" mr-2 text-[13px] rounded-[5px]  h-[21px] w-[21px] xl:h-[24px] xl:w-[24px] 2xl:h-[40px] 2xl:w-[40px] 2xl:mr-6 2xl:rounded-[8px] 2xl:text-[25px] flex justify-center items-center bg-[#099DBD] text-white mb-20 lg:mb-16 xl:mb-[77px] 2xl:mb-[77px]"><FaMinus onClick={handleContent7}/></span>
+</div>):(<div className=" xl:pl-2  duration-700 border8 h-[45px] w-[350px] lg:h-[48px] lg:w-[400px] xl:h-[70px] xl:w-[500px] 2xl:h-[91px] 2xl:w-[844px] 2xl:rounded-[8px] rounded-[6px] xl:rounded-[9px]  flex justify-between items-center mb-2.5 2xl:mb-8">
+<p className="  w-[310px] xl:w-[450px] 2xl:w-full pl-2 2xl:pl-4 items-center interFont font-semibold text-[11px] lg:text-[12px]  xl:text-[13px] 2xl:text-[16px] text-[#29334199]">Can I wear this T-shirt for workouts or is it more suited for casual wear?</p>
+<span className=" mr-2 text-[13px] rounded-[5px] bg-[#29334117] h-[21px] w-[21px] xl:h-[24px] xl:w-[24px] 2xl:h-[40px] 2xl:w-[40px] 2xl:mr-6 2xl:rounded-[8px] 2xl:text-[25px] flex justify-center items-center text-black"><AiOutlinePlus  onClick={handleContent7}/></span>
 </div>)}
 </div>
 
 <div >
-{content8 ? (<div className="  border8 h-[80px] w-[350px] lg:h-[100px] lg:w-[400px] rounded-[6px] flex items-center justify-between duration-700 mb-2.5 ">
-  <div   className="   w-[310px] ">
-<p className=" pl-2  interFont font-medium text-[11px] lg:text-[12px] text-[#099DBD] ">Does this T-shirt shrink after washing?</p>
-<p className=" pl-2 interFont font-medium text-[11px] lg:text-[12px] text-[#29334199]">Our regular fit T-shirt is preshrunk to minimize shrinkage, ensuring a consistent fit wash after wash.</p>
+{content8 ? (<div className="  border8 2xl:pl-4 h-[80px] w-[350px] xl:pl-2 lg:h-[100px] lg:w-[400px] xl:h-[110px] xl:w-[500px] 2xl:h-[159px] 2xl:w-[844px] 2xl:rounded-[8px] rounded-[6px] xl:rounded-[9px] flex items-center justify-between duration-700 mb-2.5 2xl:mb-8 ">
+  <div   className="   w-[310px] xl:w-[450px] 2xl:w-[90%]">
+<p className=" pl-2 2xl:pb-4 interFont font-semibold text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] text-[#099DBD] ">Does this T-shirt shrink after washing?</p>
+<p className=" pl-2 interFont 2xl:leading-8 font-medium text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] text-[#29334199]">Our regular fit T-shirt is preshrunk to minimize shrinkage, ensuring a consistent fit wash after wash.</p>
 </div>
-<span className=" mr-2 text-[13px] rounded-[5px] bg-[#099DBD] text-white h-[21px] w-[21px] flex justify-center items-center mb-8 "><FaMinus onClick={handleContent8}/></span>
-</div>):(<div className=" duration-700 border8 h-[45px] w-[350px] lg:h-[48px] lg:w-[400px] rounded-[6px]  flex justify-between items-center mb-2.5">
-<p className="  w-[310px]  pl-2 items-center interFont font-medium text-[11px] lg:text-[12px] text-[#29334199]">Does this T-shirt shrink after washing?</p>
-<span className=" mr-2 text-[13px] rounded-[5px] bg-[#29334117] h-[21px] w-[21px] flex justify-center items-center text-gray-600"><AiOutlinePlus onClick={handleContent8}/></span>
+<span className=" mr-2 text-[13px] rounded-[5px] bg-[#099DBD] text-white h-[21px] w-[21px] xl:h-[24px] xl:w-[24px] 2xl:h-[40px] 2xl:w-[40px] 2xl:mr-6 2xl:rounded-[8px] 2xl:text-[25px] flex justify-center items-center mb-8 lg:mb-14 xl:mb-[47px] 2xl:mb-[77px]"><FaMinus onClick={handleContent8}/></span>
+</div>):(<div className=" xl:pl-2 duration-700 border8 h-[45px] w-[350px] lg:h-[48px] lg:w-[400px] xl:h-[70px] xl:w-[500px] 2xl:h-[91px] 2xl:w-[844px] 2xl:rounded-[8px] rounded-[6px]  xl:rounded-[9px] flex justify-between items-center mb-2.5 2xl:mb-8">
+<p className="  w-[310px] xl:w-[450px] 2xl:w-full pl-2 2xl:pl-4 items-center interFont font-semibold text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] text-[#29334199]">Does this T-shirt shrink after washing?</p>
+<span className=" mr-2 text-[13px] rounded-[5px] bg-[#29334117] h-[21px] w-[21px] xl:h-[24px] xl:w-[24px] 2xl:h-[40px] 2xl:w-[40px] 2xl:mr-6 2xl:rounded-[8px] 2xl:text-[25px]  flex justify-center items-center text-black"><AiOutlinePlus onClick={handleContent8}/></span>
 </div>)}
 </div>
 
@@ -888,13 +888,13 @@ const Page = () => {
 {/* customer feedback container below*/}
  
  
-    <div className="flex ml-[20px] h-full  w-[95%] lg:mt-[20px] " >
-      <div className="w-1/2  mt-[15%]">
-        <h2 className="interFont font-semibold text-[12px] lg:text-[13px] text-[#293341] pb-2">CUSTOMERS FEEDBACK</h2>
+    <div className="flex ml-[20px] h-full  w-[95%] lg:mt-[20px]  xl:pl-16" >
+      <div className="w-1/2 b mt-[15%] xl:mt-[49px] 2xl:mt-[121px]">
+        <h2 className="interFont font-semibold text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[15px] text-[#293341] pb-2">CUSTOMERS FEEDBACK</h2>
         
-        <div className="flex justify-between">
-          <div className="h-24 w-28 bg-[#F9FAFB] lg:h-28 lg:w-32 rounded-[5px] flex flex-col items-center justify-center">
-            <h1 className=" interFont font-medium text-[21px] lg:text-[24px] text-[#099DBD]">4.8</h1>
+        <div className="flex justify-between  xl:w-[525px] 2xl:w-[870px] ">
+          <div className="h-24 w-28 bg-[#F9FAFB] lg:h-28 lg:w-32 xl:h-36 xl:w-36 2xl:h-[231px] 2xl:w-[299px]  rounded-[5px] 2xl:rounded-[8px] flex flex-col items-center justify-center">
+            <h1 className=" interFont font-medium text-[21px] lg:text-[24px] xl:text-[26px] 2xl:text-[60px] text-[#099DBD]">4.8</h1>
             <span className="flex">
             <IoStarSharp className="text-[#FFB800]"/>
             <IoStarSharp className="text-[#FFB800]"/>
@@ -902,10 +902,10 @@ const Page = () => {
             <IoStarSharp className="text-[#FFB800]"/>
             <IoStarSharp className="text-[#FFB800]"/>
             </span>
-            <h3 className="interFont font-normal text-[11px] lg:text-[14px] pt-2">Product Rating</h3>
+            <h3 className="interFont font-normal text-[11px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px] pt-2">Product Rating</h3>
           </div>
 
-          <div  className="h-24 w-56 lg:h-28 lg:w-64 mr-5 lg:pt-2 rounded-[5px] flex justify-around ml-3  bg-[#F9FAFB]">
+          <div  className="h-24 w-56 lg:h-28 lg:w-64 xl:h-36 xl:w-80 2xl:h-[231px] 2xl:w-[543px] mr-5 lg:pt-2 rounded-[5px] 2xl:rounded-[8px]  flex justify-around ml-3 xl:ml-1  bg-[#F9FAFB]">
           {/* <input
                 type="range"
                 min={0}
@@ -916,8 +916,8 @@ const Page = () => {
             />
             <p>Value: {value}</p> */}
             <div>
-            <form>
-    <Slider.Root className="SliderRoot" defaultValue={[70]} max={100} step={1}>
+            <form className="2xl:ml-5">
+    <Slider.Root className="SliderRoot xl:w-[100px] xl:h-[25px] 2xl:w-[345px] 2xl:h-[42px] 2xl:font-semibold" defaultValue={[70]} max={100} step={1}>
       <Slider.Track className="SliderTrack">
         <Slider.Range className="SliderRange" />
       </Slider.Track>
@@ -925,8 +925,8 @@ const Page = () => {
     </Slider.Root>
   </form>
 
-  <form>
-    <Slider.Root className="SliderRoot" defaultValue={[50]} max={100} step={1}>
+  <form className="2xl:ml-5">
+    <Slider.Root className="SliderRoot xl:w-[100px] xl:h-[25px] 2xl:w-[345px] 2xl:h-[42px]" defaultValue={[50]} max={100} step={1}>
       <Slider.Track className="SliderTrack">
         <Slider.Range className="SliderRange" />
       </Slider.Track>
@@ -934,8 +934,8 @@ const Page = () => {
     </Slider.Root>
   </form>
 
-  <form>
-    <Slider.Root className="SliderRoot" defaultValue={[30]} max={100} step={1}>
+  <form className="2xl:ml-5">
+    <Slider.Root className="SliderRoot xl:w-[100px] xl:h-[25px] 2xl:w-[345px] 2xl:h-[42px]" defaultValue={[30]} max={100} step={1}>
       <Slider.Track className="SliderTrack">
         <Slider.Range className="SliderRange" />
       </Slider.Track>
@@ -943,8 +943,8 @@ const Page = () => {
     </Slider.Root>
   </form>
 
-  <form>
-    <Slider.Root className="SliderRoot" defaultValue={[20]} max={100} step={1}>
+  <form className="2xl:ml-5">
+    <Slider.Root className="SliderRoot xl:w-[100px] xl:h-[25px] 2xl:w-[345px] 2xl:h-[42px]" defaultValue={[20]} max={100} step={1}>
       <Slider.Track className="SliderTrack">
         <Slider.Range className="SliderRange" />
       </Slider.Track>
@@ -952,8 +952,8 @@ const Page = () => {
     </Slider.Root>
   </form>
 
-  <form>
-    <Slider.Root className="SliderRoot" defaultValue={[10]} max={100} step={1}>
+  <form className="2xl:ml-5"> 
+    <Slider.Root className="SliderRoot xl:w-[100px] xl:h-[25px] 2xl:w-[345px] 2xl:h-[42px]" defaultValue={[10]} max={100} step={1}>
       <Slider.Track className="SliderTrack">
         <Slider.Range className="SliderRange" />
       </Slider.Track>
@@ -984,11 +984,11 @@ const Page = () => {
 
 {/* percentage */}
   <div>
-    <p className="interFont font-normal text-[11px] lg:text-[12px] pb-[2px]">70%</p>
-    <p className="interFont font-normal text-[11px] lg:text-[12px] pb-[2px]" >15%</p>
-    <p className="interFont font-normal text-[11px] lg:text-[12px] pb-[2px]">10%</p>
-    <p className="interFont font-normal text-[11px] lg:text-[12px] pb-[2px]">3%</p>
-    <p className="interFont font-normal text-[11px] lg:text-[12px] ">2%</p>
+    <p className="interFont font-normal text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] pb-[2px] xl:pb-[5px] 2xl:pb-[20px]">70%</p>
+    <p className="interFont font-normal text-[11px] lg:text-[12px] pb-[2px] xl:text-[13px] 2xl:text-[16px] xl:pb-[5px] 2xl:pb-[20px]" >15%</p>
+    <p className="interFont font-normal text-[11px] lg:text-[12px] pb-[2px] xl:text-[13px] 2xl:text-[16px] xl:pb-[5px] 2xl:pb-[20px]">10%</p>
+    <p className="interFont font-normal text-[11px] lg:text-[12px] pb-[2px] xl:text-[13px] 2xl:text-[16px] xl:pb-[5px] 2xl:pb-[20px]">3%</p>
+    <p className="interFont font-normal text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] ">2%</p>
 
   </div>
 
@@ -996,31 +996,31 @@ const Page = () => {
           </div>
         </div> 
        <div>
-        <h2 className="interFont font-semibold text-[12px] lg:text-[13px] pt-4 lg:pt-5 pb-2 lg:pb-3">CUSTOMERS PHOTOS & VIDEOS</h2>
-        <div className="flex justify-between w-56 ">
-          <div className="h-14 w-12">
-          <Image src='/assets/image 37.png' height={1000} width={1000} alt="customer1" className="h-14 w-12 lg:h-16 lg:w-14"/>
+        <h2 className="interFont font-semibold text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[15px] pt-4 lg:pt-5 pb-2 lg:pb-3 xl:pb-5 2xl:pt-8 2xl:pb-6">CUSTOMERS PHOTOS & VIDEOS</h2>
+      <div className="flex justify-between w-56  lg:w-[300px] xl:w-[350px] 2xl:w-[495px] ">
+          <div className="h-14 w-12 lg:h-16 lg:w-14  xl:h-20 xl:w-20 2xl:h-[107px] 2xl:w-[107px]">
+          <Image src='/assets/image 37.png' height={1000} width={1000} alt="customer1" className="h-14 w-12 lg:h-16 lg:w-14 xl:h-20 xl:w-20 2xl:h-[107px] 2xl:w-[107px]"/>
           </div>
-          <div className="h-14 w-12">
-          <Image src='/assets/image 38.png' height={1000} width={1000} alt="customer1" className="h-14 w-12 lg:h-16 lg:w-14"/>
+          <div className="h-14 w-12 lg:h-16 lg:w-14  xl:h-20 xl:w-20 2xl:h-[107px] 2xl:w-[107px]">
+          <Image src='/assets/image 38.png' height={1000} width={1000} alt="customer1" className="h-14 w-12 lg:h-16 lg:w-14 xl:h-20 xl:w-20 2xl:h-[107px] 2xl:w-[107px]"/>
           </div>
-          <div className="h-14 w-12">
-          <Image src='/assets/image 39.png' height={1000} width={1000} alt="customer1" className="h-14 w-12 lg:h-16 lg:w-14"/>
+          <div className="h-14 w-12 lg:h-16 lg:w-14  xl:h-20 xl:w-20 2xl:h-[107px] 2xl:w-[107px]">
+          <Image src='/assets/image 39.png' height={1000} width={1000} alt="customer1" className="h-14 w-12 lg:h-16 lg:w-14 xl:h-20 xl:w-20 2xl:h-[107px] 2xl:w-[107px]"/>
           </div>
-          <div className="h-14 w-12">
-          <Image src='/assets/image 40.png' height={1000} width={1000} alt="customer1" className="h-14 w-12 lg:h-16 lg:w-14"/>
+          <div className="h-14 w-12 lg:h-16 lg:w-14  xl:h-20 xl:w-20 2xl:h-[107px] 2xl:w-[107px]">
+          <Image src='/assets/image 40.png' height={1000} width={1000} alt="customer1" className="h-14 w-12 lg:h-16 lg:w-14 xl:h-20 xl:w-20 2xl:h-[107px] 2xl:w-[107px]"/>
           </div>
         </div>
         </div>  
       </div>
 
 <div className="w-1/2  h-full mt-3 ml-12 lg:ml-20  ">
-      <div className="  h-[50%] w-[97%]  lg:w-[98%]   rounded-[5px] borderWrite pl-3  ">
+      <div className="  h-[50%] w-[97%]  lg:w-[98%] xl:h-[420px] 2xl:h-[634px]  rounded-[5px] xl:rounded-[9px] borderWrite pl-3  ">
        
       <div className="lg:pl-9">
-        <h3 className="interFont font-semibold text-[13px] lg:text-[13px] pb-2 pt-3 "   >Write a Review</h3>
-        <p className=" interFont font-normal text-[11px] lg:text-[12px] pb-1">What is it like to Product? <span className="interFont font-normal text-[11px] lg:text-[12px] text-[#DD0707]"> *</span> </p>
-        <span className="flex pb-2">
+        <h3 className="interFont font-semibold text-[13px] lg:text-[13px] xl:text-[14px] 2xl:text-[20px] pb-2 pt-3 2xl:pt-8 2xl:pb-6"   >Write a Review</h3>
+        <p className=" interFont font-normal text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] pb-1">What is it like to Product? <span className="interFont font-normal text-[11px] lg:text-[12px] text-[#DD0707]"> *</span> </p>
+        <span className="flex pb-2 2xl:pt-3">
           <IoIosStar className="text-[#FFB800]"/>
           <IoIosStar  className="text-[#FFB800]"/>
           <IoIosStar  className="text-[#FFB800]"/>
@@ -1031,7 +1031,7 @@ const Page = () => {
           </div>
 
           <div>
-          <p className="interFont font-normal text-[11px] lg:text-[12px] pb-1 lg:pl-9 ">Review Comments</p>
+          <p className="interFont font-normal text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] pb-1 lg:pl-9 2xl:pt-4 ">Review Comments</p>
           {/* <textarea
         id="myTextarea"
         name="myTextarea"
@@ -1039,15 +1039,15 @@ const Page = () => {
         cols={50}
         className="h-24 w-36"
       /> */}
-      <div className="border-2 h-24 w-64 lg:w-80 border-[#4848481A] rounded-[8px] lg:ml-9   ">
+      <div className="border-2 h-24 w-64 lg:w-80 xl:w-[450px] 2xl:h-[121px] 2xl:w-[608px] border-[#4848481A] rounded-[8px] lg:ml-9   ">
 
       </div>
       </div>
 
       <div className="pt-3 ">
-      <p className=" interFont font-normal text-[11px] lg:text-[12px] pb-2 ">Would you share your experience by a Image or Video ?  </p>
+      <p className=" interFont font-normal text-[11px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px] pb-2 lg:pl-9">Would you share your experience by a Image or Video ?  </p>
       <div className="flex justify-around pb-4 ">
-      <div className="border-2 h-24 w-32  lg:w-36 border-[#4848481A] rounded-[8px]  ">
+      <div className="border-2 h-24 w-32  lg:w-36 xl:h-28 xl:w-48 2xl:h-[121px] 2xl:w-[296px] border-[#4848481A] rounded-[8px] 2xl:ml-[35px]  ">
 
       <div {...getRootProps()}>
       <input {...getInputProps()} />
@@ -1056,15 +1056,15 @@ const Page = () => {
         
           <p>Upload Photos</p> :
           <div className="flex flex-col justify-center items-center -50 pt-3">
-            <Image src='/assets/dropzone2.png' height={1000} width={1000}  alt="dropzone" className="h-6 w-6"/>
-            <p className="interFont font-normal text-[12px] lg:text-[13px]">Upload Photos</p>
-          <p className="interFont text-center font-normal text-[10px] lg:text-[11px] text-[#29334199] ">Only .jpg, .png and max 10MB each.</p>
+            <Image src='/assets/dropzone2.png' height={1000} width={1000}  alt="dropzone" className="h-6 w-6 2xl:h-[26px] 2xl:w-[28px] 2xl:mt-1 2xl:mb-[5px]"/>
+            <p className="interFont font-normal text-[12px] lg:text-[13px] xl:text-[14px]  2xl:text-[14px] 2xl:mb-[12px]">Upload Photos</p>
+          <p className="interFont text-center font-normal text-[10px] lg:text-[11px] xl:text-[12px]  2xl:text-[13px] text-[#29334199] ">Only .jpg, .png and max 10MB each.</p>
           </div>
       }
     </div>
 
       </div>
-      <div className="border-2 h-24 w-32 lg:w-36 border-[#4848481A] rounded-[8px] ml-1 lg:mr-6 ">
+      <div className="border-2 h-24 w-32 lg:w-36 xl:h-28 xl:w-48 2xl:h-[121px] 2xl:w-[296px] border-[#4848481A] rounded-[8px] ml-1 lg:mr-6 xl:mr-14 2xl:mr-[105px] ">
 
       <div {...getRootProps()}>
       <input {...getInputProps()} />
@@ -1073,9 +1073,9 @@ const Page = () => {
         
           <p>Upload Videos</p> :
           <div className="flex flex-col justify-center items-center -50 pt-3">
-            <Image src='/assets/dropzone3.png' height={1000} width={1000}  alt="dropzone" className="h-6 w-6"/>
-            <p className="interFont font-normal text-[12px] lg:text-[13px]">Upload Videos</p>
-          <p className="interFont text-center font-normal text-[10px] lg:text-[11px] text-[#29334199] ">Only .mp4 .mov and max 200MB</p>
+            <Image src='/assets/dropzone3.png' height={1000} width={1000}  alt="dropzone" className="h-6 w-6 2xl:h-[26px] 2xl:w-[28px] 2xl:mt-1 2xl:mb-[5px]"/>
+            <p className="interFont font-normal text-[12px] lg:text-[13px] xl:text-[14px]  2xl:text-[14px] 2xl:mb-[12px]">Upload Videos</p>
+          <p className="interFont text-center font-normal text-[10px] lg:text-[11px] xl:text-[12px] 2xl:text-[13px] text-[#29334199] ">Only .mp4 .mov and max 200MB</p>
           </div>
       }
     </div>
@@ -1083,9 +1083,9 @@ const Page = () => {
       </div>
 
       </div>
-      <p className="btn1  bg-[#099DBD] h-7 w-28  lg:w-32 "
+      <p className="btn1  bg-[#099DBD] h-7 w-28  lg:w-32 xl:ml-9 "
               >
-                <span className="text-[10px] lg:text-[11px]  font-semibold  flex justify-center pt-1.5 ">
+                <span className="text-[10px] lg:text-[11px] xl:text-[12px]  font-semibold  flex justify-center pt-1.5 ">
                 SUBMIT REVIEW
                 </span>
               </p>
@@ -1099,11 +1099,11 @@ const Page = () => {
 
     </div>
 
-   <div className="w-1/2 h-full mt-6 pl-5  ">
+   <div className="w-1/2 h-full mt-6 pl-5 xl:pl-20 xl:mt-10">
 
-<div className="flex justify-between w-20 bg-green-100 lg:w-24 ">
-    <h2 className="interFont font-semibold text-[13px] lg:text-[14px] pb-3">REVIEWS </h2>
-    <Image src='/assets/stars.png' alt="stars" height={1000} width={1000} className="h-4 w-4" />
+<div className="flex justify-between w-20  lg:w-[85px]  xl:w-[95px]">
+    <h2 className="interFont font-semibold text-[13px] lg:text-[14px] xl:text-[15px] pb-3">REVIEWS </h2>
+    <Image src='/assets/stars.png' alt="stars" height={1000} width={1000} className="h-4 w-4 xl:h-5 xl:w-5" />
     </div>
 
     
@@ -1117,16 +1117,16 @@ const Page = () => {
 
     <div className="flex justify-between ">
 
-      <div className="roundImage bg-[#164C96] h-5 w-12 rounded-[50%] lg:rounded    ">
-        <p className="text-[9px] text-white flex justify-center items-center pt-[3px]">NC</p>
+      <div className="roundImage bg-[#164C96]  h-5 w-12 rounded-[50%] xl:rounded-[50%]    ">
+        <p className="text-[9px] text-white flex  justify-center items-center pt-[3px]">NC</p>
       </div>
 
       <div className="reviewContent1  pl-2">
-    <div className="flex justify-between  w-36 lg:w-40 ">
+    <div className="flex justify-between  w-36 lg:w-40 xl:w-[165px]  ">
       
-    <h3 className="interFont font-medium text-[13px] lg:text-[14px]"  > Nicolas cage</h3>
+    <h3 className="interFont font-medium text-[13px] lg:text-[14px] xl:text-[15px]"  > Nicolas cage</h3>
    
-    <p className="interFont font-normal text-[9px] lg:text-[10px] text-[#878787] pt-1 pr-2" >3 Days ago</p>
+    <p className="interFont font-normal text-[9px] lg:text-[10px] xl:text-[11px] text-[#878787] pt-1 pr-2" >3 Days ago</p>
     </div>
     <span className="flex pt-1 pb-3">
     <IoIosStar className="text-[#FFB800] text-[10px]"/>
@@ -1135,20 +1135,20 @@ const Page = () => {
     <IoIosStar className="text-[#FFB800] text-[10px]"/>
     <IoIosStar className="text-[#FFB800] text-[10px]"/>
     </span>
-    <h4 className="interFont font-normal text-[12px] lg:text-[13px] pb-1">Greate Product</h4>
+    <h4 className="interFont font-normal text-[12px] lg:text-[12px] xl:text-[13px] pb-1">Greate Product</h4>
 
-    <p className="interFont font-normal text-[12px] text-[#29334199] pb-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+    <p className="interFont font-normal text-[12px] xl:text-[13px] text-[#29334199] pb-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
 
 <div className="flex pb-3  justify-between w-28">
 
 <div onClick={handleColorLike1}  className={`flex ${color1 ? 'text-[#099DBD]':'text-[#29334199]'}`}>
  
-<BiLike className={` mr-1 text-[14px] `}  /><p className={`interFont font-normal text-[11px]  ` }>Like</p>
+<BiLike className={` mr-1 text-[14px] `}  /><p className={`interFont font-normal text-[11px] xl:text-[12px] ` }>Like</p>
 
 </div>
 <div onClick={handleColorLike11}  className={`flex ${color11 ? 'text-[#099DBD]':'text-[#29334199]'}`}>
   
-<BiDislike  className={` mr-1 text-[14px] `} /> <p  className={`interFont font-normal text-[11px] `} >Dislike</p>
+<BiDislike  className={` mr-1 text-[14px] `} /> <p  className={`interFont font-normal text-[11px] xl:text-[12px] `} >Dislike</p>
 
 </div>
 </div>
@@ -1163,10 +1163,10 @@ const Page = () => {
         <p className="text-[9px] text-white flex justify-center items-center pt-[3px]">SR</p>
       </div>
 <div className="reviewContent2 pl-2">
-<div className="flex justify-between pt-3   w-44 lg:w-48">
+<div className="flex justify-between pt-3   w-44 lg:w-48 xl:w-[205px] ">
 
-    <h3 className="interFont font-medium text-[13px] lg:text-[14px]"   >Sr.Robert Downey</h3>
-    <p className="interFont font-normal text-[9px] lg:text-[10px] text-[#878787] pt-1 pr-2" >3 Days ago</p>
+    <h3 className="interFont font-medium text-[13px] lg:text-[14px] xl:text-[15px]"   >Sr.Robert Downey</h3>
+    <p className="interFont font-normal text-[9px] lg:text-[10px] xl:text-[11px] text-[#878787] pt-1 pr-2" >3 Days ago</p>
     </div>
     <span className="flex pt-1 pb-3">
     <IoIosStar className="text-[#FFB800] text-[10px]"/>
@@ -1175,18 +1175,18 @@ const Page = () => {
     <IoIosStar className="text-[#FFB800] text-[10px]"/>
     <IoIosStar className="text-[#FFB800] text-[10px]"/>
     </span>
-    <h4 className="interFont font-normal text-[12px] pb-1">The best product In Market</h4>
-    <p className="interFont font-normal text-[12px] text-[#29334199] pb-3">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+    <h4 className="interFont font-normal text-[12px] xl:text-[13px] pb-1">The best product In Market</h4>
+    <p className="interFont font-normal text-[12px] xl:text-[13px] text-[#29334199] pb-3">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
 
 <div className="flex pb-3  justify-between w-28">
 <div onClick={handleColorLike2} className={`flex ${color2 ? 'text-[#099DBD]':'text-[#29334199]'}` }>
   
-  <BiLike   className={` mr-1 text-[14px]` }/><p className={`interFont font-normal text-[11px] `}>Like</p>
+  <BiLike   className={` mr-1 text-[14px]` }/><p className={`interFont font-normal text-[11px] xl:text-[12px] `}>Like</p>
 
 </div>
 
 <div onClick={handleColorLike12} className={`flex ${color12 ? 'text-[#099DBD]':'text-[#29334199]'}`}>
-<BiDislike  className={` mr-1 text-[14px]`} /> <p  className={`interFont font-normal text-[11px] `}>Dislike</p>
+<BiDislike  className={` mr-1 text-[14px]`} /> <p  className={`interFont font-normal text-[11px] xl:text-[12px]  `}>Dislike</p>
 </div>
 </div>
 </div>
@@ -1200,11 +1200,11 @@ const Page = () => {
       </div>
 
       <div className="reviewContent1  pl-2">
-    <div className="flex justify-between  w-36 lg:w-40">
+    <div className="flex justify-between  w-36 lg:w-40 xl:w-[165px]">
       
-    <h3 className="interFont font-medium text-[13px] lg:text-[14px]"  > Nicolas cage</h3>
+    <h3 className="interFont font-medium text-[13px] lg:text-[14px] xl:text-[15px]"  > Nicolas cage</h3>
    
-    <p className="interFont font-normal text-[9px] lg:text-[10px] text-[#878787] pt-1 pr-2" >3 Days ago</p>
+    <p className="interFont font-normal text-[9px] lg:text-[10px] xl:text-[11px] text-[#878787] pt-1 pr-2" >3 Days ago</p>
     </div>
     <span className="flex pt-1 pb-3">
     <IoIosStar className="text-[#FFB800] text-[10px]"/>
@@ -1213,20 +1213,20 @@ const Page = () => {
     <IoIosStar className="text-[#FFB800] text-[10px]"/>
     <IoIosStar className="text-[#FFB800] text-[10px]"/>
     </span>
-    <h4 className="interFont font-normal text-[12px] pb-1">Greate Product</h4>
+    <h4 className="interFont font-normal text-[12px] xl:text-[13px] pb-1">Greate Product</h4>
 
-    <p className="interFont font-normal text-[12px] text-[#29334199] pb-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+    <p className="interFont font-normal text-[12px] xl:text-[13px] text-[#29334199] pb-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
 
 <div className="flex pb-3  justify-between w-28">
 
 <div onClick={handleColorLike3} className={` flex ${color3 ? 'text-[#099DBD]':'text-[#29334199]'}  `}>
  
-<BiLike  className={` mr-1 text-[14px]`} /><p className={`interFont font-normal text-[11px] `}>Like</p>
+<BiLike  className={` mr-1 text-[14px]`} /><p className={`interFont font-normal text-[11px] xl:text-[12px] `}>Like</p>
 
 </div>
 <div onClick={handleColorLike13}  className={`flex ${color13 ? 'text-[#099DBD]':'text-[#29334199]'} `}>
   
-<BiDislike  className={` mr-1 text-[14px]`} /> <p  className={`interFont font-normal text-[11px] `}>Dislike</p>
+<BiDislike  className={` mr-1 text-[14px]`} /> <p  className={`interFont font-normal text-[11px] xl:text-[12px] `}>Dislike</p>
 
 </div>
 </div>
@@ -1241,10 +1241,10 @@ const Page = () => {
         <p className="text-[9px] text-white flex justify-center items-center pt-[3px]">SR</p>
       </div>
 <div className="reviewContent2 pl-2">
-<div className="flex justify-between pt-3   w-44 lg:w-48">
+<div className="flex justify-between pt-3   w-44 lg:w-48 xl:w-[205px]">
 
-    <h3 className="interFont font-medium text-[13px] lg:text-[14px]"  >Sr.Robert Downey</h3>
-    <p className="interFont font-normal text-[9px] lg:text-[10px] text-[#878787] pt-1 pr-2" >3 Days ago</p>
+    <h3 className="interFont font-medium text-[13px] lg:text-[14px] xl:text-[15px]"  >Sr.Robert Downey</h3>
+    <p className="interFont font-normal text-[9px] lg:text-[10px] xl:text-[11px] text-[#878787] pt-1 pr-2" >3 Days ago</p>
     </div>
     <span className="flex pt-1 pb-3">
     <IoIosStar className="text-[#FFB800] text-[10px]"/>
@@ -1253,18 +1253,18 @@ const Page = () => {
     <IoIosStar className="text-[#FFB800] text-[10px]"/>
     <IoIosStar className="text-[#FFB800] text-[10px]"/>
     </span>
-    <h4 className="interFont font-normal text-[12px] pb-1">The best product In Market</h4>
-    <p className="interFont font-normal text-[12px] text-[#29334199] pb-3">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+    <h4 className="interFont font-normal text-[12px] xl:text-[13px] pb-1">The best product In Market</h4>
+    <p className="interFont font-normal text-[12px] xl:text-[13px] text-[#29334199] pb-3">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
 
 <div className="flex pb-3  justify-between w-28">
 <div onClick={handleColorLike4} className={`flex ${color4 ? 'text-[#099DBD]':'text-[#29334199]'}`}>
   
-<BiLike   className={` mr-1 text-[14px]`} /><p className={`interFont font-normal text-[11px] `}>Like</p>
+<BiLike   className={` mr-1 text-[14px]`} /><p className={`interFont font-normal text-[11px] xl:text-[12px] `}>Like</p>
 
 </div>
 
 <div onClick={handleColorLike14} className={`flex ${color14 ? 'text-[#099DBD]':'text-[#29334199]'} `}>
-<BiDislike  className={` mr-1 text-[14px]`} /> <p  className={`interFont font-normal text-[11px] `}>Dislike</p>
+<BiDislike  className={` mr-1 text-[14px]`} /> <p  className={`interFont font-normal text-[11px]  xl:text-[12px]`}>Dislike</p>
 </div>
 </div>
 </div>
@@ -1279,11 +1279,11 @@ const Page = () => {
       </div>
 
       <div className="reviewContent1  pl-2">
-    <div className="flex justify-between  w-36 lg:w-40">
+    <div className="flex justify-between  w-36 lg:w-40 xl:w-[165px]">
       
-    <h3 className="interFont font-medium text-[13px] lg:text-[14px]"  > Nicolas cage</h3>
+    <h3 className="interFont font-medium text-[13px] lg:text-[14px] xl:text-[15px]"  > Nicolas cage</h3>
    
-    <p className="interFont font-normal text-[9px] lg:text-[10px] text-[#878787] pt-1 pr-2" >3 Days ago</p>
+    <p className="interFont font-normal text-[9px] lg:text-[10px] xl:text-[11px] text-[#878787] pt-1 pr-2" >3 Days ago</p>
     </div>
     <span className="flex pt-1 pb-3">
     <IoIosStar className="text-[#FFB800] text-[10px]"/>
@@ -1292,27 +1292,27 @@ const Page = () => {
     <IoIosStar className="text-[#FFB800] text-[10px]"/>
     <IoIosStar className="text-[#FFB800] text-[10px]"/>
     </span>
-    <h4 className="interFont font-normal text-[12px] pb-1">Greate Product</h4>
+    <h4 className="interFont font-normal text-[12px] xl:text-[13px] pb-1">Greate Product</h4>
 
-    <p className="interFont font-normal text-[12px] text-[#29334199] pb-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+    <p className="interFont font-normal text-[12px] xl:text-[13px] text-[#29334199] pb-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
 
 <div className="flex pb-3  justify-between w-28">
 
 <div onClick={handleColorLike5}  className={`flex ${color5 ? 'text-[#099DBD]':'text-[#29334199]'} `}>
  
-<BiLike  className={` mr-1 text-[14px]`} /><p className={`interFont font-normal text-[11px] `}>Like</p>
+<BiLike  className={` mr-1 text-[14px]`} /><p className={`interFont font-normal text-[11px] xl:text-[12px] `}>Like</p>
 
 </div>
 <div onClick={handleColorLike15}  className={`flex ${color15 ? 'text-[#099DBD]':'text-[#29334199]'} `}>
   
-<BiDislike  className={` mr-1 text-[14px]`} /> <p  className={`interFont font-normal text-[11px] `}>Dislike</p>
+<BiDislike  className={` mr-1 text-[14px]`} /> <p  className={`interFont font-normal text-[11px] xl:text-[12px]`}>Dislike</p>
 
 </div>
 </div>
 </div>
 
 </div>
-<p onClick={handleView} className="interFont font-medium text-[11px] flex justify-center hover:translate-x-0.5 hover:font-bold duration-500 text-[#099DBD]">VIEW LESS</p>
+<p onClick={handleView} className="interFont font-medium text-[11px] xl:text-[13px] flex justify-center hover:translate-x-0.5 hover:font-bold duration-500 text-[#099DBD]">VIEW LESS</p>
 </div>):(<div>
 
 <div className="flex justify-between ">
@@ -1322,11 +1322,11 @@ const Page = () => {
   </div>
 
   <div className="reviewContent1  pl-2">
-<div className="flex justify-between  w-36 lg:w-40">
+<div className="flex justify-between  w-36 lg:w-40 xl:w-[165px]">
   
-<h3 className="interFont font-medium text-[13px] lg:text-[14px]"  > Nicolas cage</h3>
+<h3 className="interFont font-medium text-[13px] lg:text-[14px] xl:text-[15px] "  > Nicolas cage</h3>
 
-<p className="interFont font-normal text-[9px] lg:text-[10px] text-[#878787] pt-1 pr-2" >3 Days ago</p>
+<p className="interFont font-normal text-[9px] lg:text-[10px] xl:text-[11px] text-[#878787] pt-1 pr-2" >3 Days ago</p>
 </div>
 <span className="flex pt-1 pb-3">
 <IoIosStar className="text-[#FFB800] text-[10px]"/>
@@ -1335,20 +1335,20 @@ const Page = () => {
 <IoIosStar className="text-[#FFB800] text-[10px]"/>
 <IoIosStar className="text-[#FFB800] text-[10px]"/>
 </span>
-<h4 className="interFont font-normal text-[12px] pb-1">Greate Product</h4>
+<h4 className="interFont font-normal text-[12px] xl:text-[13px] pb-1">Greate Product</h4>
 
-<p className="interFont font-normal text-[12px] text-[#29334199] pb-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+<p className="interFont font-normal text-[12px] xl:text-[13px] text-[#29334199] pb-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
 
 <div className="flex pb-3  justify-between w-28">
 
 <div onClick={handleColorLike6} className={`flex ${color6 ? 'text-[#099DBD]':'text-[#29334199]'} `}>
 
-<BiLike  className={` mr-1 text-[14px]`} /><p className={`interFont font-normal text-[11px] `}>Like</p>
+<BiLike  className={` mr-1 text-[14px]`} /><p className={`interFont font-normal text-[11px] xl:text-[12px] `}>Like</p>
 
 </div>
 <div onClick={handleColorLike16}  className={`flex ${color16 ? 'text-[#099DBD]':'text-[#29334199]'} `}>
 
-<BiDislike  className={` mr-1 text-[14px]`} /> <p  className={`interFont font-normal text-[11px] `}>Dislike</p>
+<BiDislike  className={` mr-1 text-[14px]`} /> <p  className={`interFont font-normal text-[11px] xl:text-[12px] `}>Dislike</p>
 
 </div>
 </div>
@@ -1363,10 +1363,10 @@ const Page = () => {
     <p className="text-[9px] text-white flex justify-center items-center pt-[3px]">SR</p>
   </div>
 <div className="reviewContent2 pl-2">
-<div className="flex justify-between pt-3   w-44 lg:w-48">
+<div className="flex justify-between pt-3   w-44 lg:w-48 xl:w-[205px]">
 
-<h3 className="interFont font-medium text-[13px] lg:text-[14px]"  >Sr.Robert Downey</h3>
-<p className="interFont font-normal text-[9px] lg:text-[10px] text-[#878787] pt-1 pr-2" >3 Days ago</p>
+<h3 className="interFont font-medium text-[13px] lg:text-[14px] xl:text-[15px]"  >Sr.Robert Downey</h3>
+<p className="interFont font-normal text-[9px] lg:text-[10px] xl:text-[11px] text-[#878787] pt-1 pr-2" >3 Days ago</p>
 </div>
 <span className="flex pt-1 pb-3">
 <IoIosStar className="text-[#FFB800] text-[10px]"/>
@@ -1375,68 +1375,68 @@ const Page = () => {
 <IoIosStar className="text-[#FFB800] text-[10px]"/>
 <IoIosStar className="text-[#FFB800] text-[10px]"/>
 </span>
-<h4 className="interFont font-normal text-[12px] pb-1">The best product In Market</h4>
-<p className="interFont font-normal text-[12px] text-[#29334199] pb-3">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+<h4 className="interFont font-normal text-[12px] xl:text-[13px] pb-1">The best product In Market</h4>
+<p className="interFont font-normal text-[12px] xl:text-[13px] text-[#29334199] pb-3">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
 
 <div className="flex pb-3  justify-between w-28">
 <div onClick={handleColorLike7} className={`flex ${color7 ? 'text-[#099DBD]':'text-[#29334199]'} `}>
 
-<BiLike   className={` mr-1 text-[14px]`} /><p className={`interFont font-normal text-[11px] `}>Like</p>
+<BiLike   className={` mr-1 text-[14px]`} /><p className={`interFont font-normal text-[11px] xl:text-[12px] `}>Like</p>
 
 </div>
 
 <div onClick={handleColorLike17} className={`flex ${color17 ? 'text-[#099DBD]':'text-[#29334199]'} `}>
-<BiDislike  className={`mr-1 text-[14px]`} /> <p  className={`interFont font-normal text-[11px] `}>Dislike</p>
+<BiDislike  className={`mr-1 text-[14px]`} /> <p  className={`interFont font-normal text-[11px] xl:text-[12px] `}>Dislike</p>
 </div>
 </div>
 </div>
 </div>
-<p onClick={handleView} className="interFont font-medium text-[11px] flex justify-center  text-[#099DBD] hover:translate-x-0.5 hover:font-bold duration-500">VIEW ALL REVIEWS</p>
+<p onClick={handleView} className="interFont font-medium text-[11px] xl:text-[13px] flex justify-center  text-[#099DBD] hover:translate-x-0.5 hover:font-bold duration-500">VIEW ALL REVIEWS</p>
 </div>)} 
 </div>
 
    </div>
 
 {/* frequently bought together */}
-   <div className="h-[60%] w-[50%]   rounded-[7px] borderTogether pl-3 pt-2.5 mt-5 ml-3 mb-3 ">
-<h2 className="interFont font-semibold text-[12px] lg:text-[13px] pb-3">FREQUENTLY BOUGHT TOGETHER</h2>
-<div className="flex">
-  <Image src='/assets/t1.png' height={1000} width={1000} alt="together1 " className="h-16 w-14"/>
-  <FiPlus className="mt-6"/>
-  <Image src='/assets/t2.png' height={1000} width={1000} alt="together2" className="h-16 w-14"/>
-  <FiPlus className="mt-6"/>
-  <Image src='/assets/t3.png' height={1000} width={1000} alt="together3" className="h-16 w-14"/>
-<div>
-  <div className="flex justify-evenly  w-44">
-    <p className="interFont font-semibold text-[12px] text-[#293341] lg:text-[13px]">Total Price </p>
+   <div className="h-[60%] w-[50%]  xl:h-[270px]  rounded-[7px] borderTogether pl-3 pt-2.5 mt-5 ml-3 mb-3 xl:ml-16 ">
+<h2 className="interFont font-semibold text-[12px] lg:text-[13px] xl:text-[14px] pb-3 xl:pb-5">FREQUENTLY BOUGHT TOGETHER</h2>
+<div className="flex pl-7">
+  <Image src='/assets/t1.png' height={1000} width={1000} alt="together1 " className="h-16 w-14 xl:h-28 xl:w-24"/>
+  <FiPlus className="mt-6 xl:mt-9"/>
+  <Image src='/assets/t2.png' height={1000} width={1000} alt="together2" className="h-16 w-14 xl:h-28 xl:w-24"/>
+  <FiPlus className="mt-6 xl:mt-9"/>
+  <Image src='/assets/t3.png' height={1000} width={1000} alt="together3" className="h-16 w-14 xl:h-28 xl:w-24"/>
+<div className="xl:pl-6">
+  <div className="flex justify-evenly  w-44   ">
+    <p className="interFont font-semibold text-[12px] text-[#293341] lg:text-[13px] xl:text-[14px]">Total Price </p>
     
-    <p className="interFont font-semibold text-[14px] lg:text-[15px] text-[#293341]">₹2247 <span className="text-[#898989] interFont font-normal text-[11px] lg:text-[12px]"><del>₹4097</del> </span></p>
+    <p className="interFont font-semibold text-[14px] lg:text-[15px] xl:text-[13px] text-[#293341]">₹2247 <span className="text-[#898989] interFont font-normal text-[11px] lg:text-[11px] xl:text-[11px]"><del>₹4097</del> </span></p>
   </div>
  
                 
-  <p  className="btn1  bg-[#099DBD] h-7 w-28 lg:w-32 ml-4  "
+  <p  className="btn1  bg-[#099DBD] h-7 w-28 lg:w-32 ml-4 xl:h-8 xl:w-40 "
               >
-                <span className="text-[10px] lg:text-[11px] font-semibold  flex justify-center pt-1.5  ">
+                <span className="text-[10px] lg:text-[11px] xl:text-[12px] font-semibold  flex justify-center pt-1.5 xl:pt-2  ">
                 ADD ALL TO CART
                 </span>
               </p>
 </div>
 </div>
-<div className="pt-3">
+<div className="pt-3 xl:pl-7">
   <div className="flex pb-2">
   <input type="checkbox" className="text-[#293341] checkInput" />
-  <p className=" interFont font-medium text-[12px] lg:text-[13px] pl-3 text-[#293341]">This item : Regular Fit T-Shirt</p>
-  <p className=" interFont font-medium text-[12px] lg:text-[13px] pl-2">₹ 649 <span className="text-[#29334199] pl-1"><del>₹ 1999</del></span></p>
+  <p className=" interFont font-medium text-[12px] lg:text-[13px] xl:text-[14px] pl-3 text-[#293341]">This item : Regular Fit T-Shirt</p>
+  <p className=" interFont font-medium text-[12px] lg:text-[13px] xl:text-[14px] pl-2">₹ 649 <span className="text-[#29334199] pl-1"><del>₹ 1999</del></span></p>
   </div>
   <div className="flex pb-2">
   <input type="checkbox" />
-  <p className=" interFont font-medium text-[12px] lg:text-[13px] pl-3 text-[#293341]">Regular Fit Sweatshorts </p>
-  <p className=" interFont font-medium text-[12px] lg:text-[13px] pl-2">₹ 599 <span className="text-[#29334199] pl-1"><del>₹ 799</del></span></p>
+  <p className=" interFont font-medium text-[12px] lg:text-[13px] xl:text-[14px] pl-3 text-[#293341]">Regular Fit Sweatshorts </p>
+  <p className=" interFont font-medium text-[12px] lg:text-[13px] xl:text-[14px] pl-2">₹ 599 <span className="text-[#29334199] pl-1"><del>₹ 799</del></span></p>
   </div>
   <div className="flex  pb-2">
   <input type="checkbox" />
-  <p className=" interFont font-medium text-[12px] lg:text-[13px] pl-3 text-[#293341]">Braided Belt </p>
-  <p className=" interFont font-medium text-[12px] lg:text-[13px] pl-2">₹ 999 <span className="text-[#29334199] pl-1"><del>₹ 1299</del></span></p>
+  <p className=" interFont font-medium text-[12px] lg:text-[13px] xl:text-[14px] pl-3 text-[#293341]">Braided Belt </p>
+  <p className=" interFont font-medium text-[12px] lg:text-[13px] xl:text-[14px] pl-2">₹ 999 <span className="text-[#29334199] pl-1"><del>₹ 1299</del></span></p>
   </div>
 
 </div>
